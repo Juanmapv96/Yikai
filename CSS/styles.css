@@ -1,3 +1,10 @@
+/* General */
+a, ul, form{
+    list-style: none;
+    text-decoration-line: none;
+    text-decoration: none;
+    
+}
 .header__logo--size{
     width: 100px;
 }
@@ -12,7 +19,7 @@
 .header--stiky, .navbar{
 
     position: sticky !important; 
-    top: 0px;
+    
     background-color: #101112;
     color: #f2f2f2;
     opacity: 10;
@@ -30,10 +37,11 @@
 
 }
 
+
 .nav-item{  
     display: block;
-    padding-left: 15px ; 
-    
+    padding-left: 45px ; 
+    margin-left: 40px ;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: #ca0000;
