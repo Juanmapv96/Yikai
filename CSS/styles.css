@@ -40,8 +40,8 @@ a, ul, form{
 
 .nav-item{  
     display: block;
-    padding-left: 35px ; 
-    margin-left: 40px ;
+    padding-left: 35px ;    
+    margin-left: 5% ;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: #ca0000;
