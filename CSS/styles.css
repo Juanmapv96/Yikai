@@ -40,7 +40,7 @@ a, ul, form{
 
 .nav-item{  
     display: block;
-    padding-left: 35px ;    
+    padding-left: 25px ;    
     margin-left: 5% ;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
