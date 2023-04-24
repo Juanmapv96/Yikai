@@ -95,15 +95,34 @@ footer {
 
 }
 .footer__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
     
 }
-.Footer-Titulo{
-    color: #f2f2f2;
-}
 
+
+.footer__container {
+    display: grid;     
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 150px 150px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "logo redes"
+      "pago datos"; 
+  }
+  .footer__logo { grid-area: logo; }
+ 
+  
+  .footer__pago { grid-area: pago; }
+  
+  .footer__redes { grid-area: redes; }
+
+  .footer__datos { grid-area: datos; }
+  
+  
+  
 
 /* Indice */
 
